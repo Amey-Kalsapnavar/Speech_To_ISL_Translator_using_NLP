@@ -1,3 +1,4 @@
+
 # 🧏‍♂️ Speech-to-Sign-Language Translator
 
 ## 📌 Project Overview
@@ -21,12 +22,13 @@ It takes **live speech or recorded audio** as input, converts it into **text**, 
 ## 🛠️ Tech Stack
 - **Programming Language**: Python 🐍  
 - **Libraries/Modules**:  
-  - `speech_recognition` (Google Speech API, Sphinx)  
-  - `pyaudio` (microphone input)  
-  - `numpy`, `matplotlib` (processing & visualization)  
-  - `easygui` (GUI)  
-  - `PIL` (image handling)  
-  - `tkinter` (GIF display)  
+  - `speech_recognition`  
+  - `pyaudio`  
+  - `numpy`  
+  - `matplotlib`  
+  - `easygui`  
+  - `PIL` (Pillow)  
+  - `tkinter`  
 - **Dataset**: Indian Sign Language (ISL) image/GIF dataset  
 
 ---
@@ -41,13 +43,17 @@ It takes **live speech or recorded audio** as input, converts it into **text**, 
 ---
 
 ## 📂 Project Structure
-SEM_project/
-│── Main1.py # Main program file
-│── signlang.png # GUI image
-│── /ISL_Gifs # GIF dataset for words/phrases
-│── /letters # ISL alphabet images
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
+```
+
+SEM\_project/
+│── Main1.py                 # Main program file
+│── signlang.png              # GUI image
+│── /ISL\_Gifs                 # GIF dataset for words/phrases
+│── /letters                  # ISL alphabet images
+│── requirements.txt          # Dependencies
+│── README.md                 # Project documentation
+
+````
 
 ---
 
@@ -57,24 +63,67 @@ SEM_project/
 ```bash
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
+````
 
-2️⃣ Create Virtual Environment (Recommended)
+### 2️⃣ Create Virtual Environment (Recommended)
+
+```bash
 python -m venv venv
 venv\Scripts\activate     # On Windows
 source venv/bin/activate  # On Linux/Mac
+```
 
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Run Project
+### 4️⃣ Run Project
+
+```bash
 python Main1.py
+```
 
-📊 Future Enhancements
+---
 
-🤖 Add machine learning models for more accurate translation.
+## 📊 Future Enhancements
 
-🌐 Expand support to multiple sign languages.
+* 🤖 Add **machine learning models** for more accurate translation.
+* 🌐 Expand support to multiple sign languages.
+* 🎥 Add **real-time 3D animated avatars** for smoother communication.
+* 📱 Develop a **mobile-friendly version** of the app.
 
-🎥 Add real-time 3D animated avatars for smoother communication.
+---
 
-📱 Develop a mobile-friendly version of the app.
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a new branch (`feature-xyz`)
+3. Commit changes
+4. Push to your branch
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – free to use and modify.
+
+---
+
+## 👨‍💻 Author
+
+**Amey Sunil Kalsapnavar**
+🚀 Passionate about AI, ML, and Assistive Technology.
+
+```
+
+---
+
+✅ You can just **copy-paste** this into a file named `README.md` in your project folder.  
+
+Do you also want me to create a **ready `requirements.txt` file** (with all the correct libraries) so you can upload that too?
+```
